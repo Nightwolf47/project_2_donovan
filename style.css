@@ -1,0 +1,112 @@
+body {
+  background-color: black; }
+
+h1 {
+  color: darkcyan;
+  text-align: center;
+  font-family: 'Ruslan Display', cursive; }
+
+h2 {
+  color: darkcyan;
+  text-align: center;
+  font-family: 'Ruslan Display', cursive; }
+
+h3 {
+  color: darkcyan;
+  text-align: center;
+  font-family: 'Ruslan Display', cursive;
+  margin: 20px; }
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.gallery-item {
+  flex: 1;
+  text-align: center;
+  min-width: 250px;
+  max-width: 250px;
+  background-color: black;
+  margin: 10px;
+  transition: 1s all; }
+
+.gallery-item:hover {
+  flex: 2;
+  max-width: 500px;
+  transition: 1s all; }
+
+img {
+  width: 100%; }
+
+p {
+  color: darkcyan;
+  text-align: center;
+  font-family: 'Ruslan Display', cursive;
+  max-width: 600px;
+  margin: 0 auto; }
+
+div {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center; }
+
+#note1 {
+  font-family: "Homemade Apple", cursive; }
+
+#empty {
+  width: 500px;
+  margin: 0 auto; }
+
+#cavern {
+  width: 500px;
+  margin: 0 auto; }
+
+#maze {
+  width: 500px;
+  margin: 0 auto; }
+
+button {
+  margin: 0 auto;
+  left: 50%; }
+
+#otherYou {
+  font-family: "Homemade Apple", cursive; }
+
+#goodbye {
+  font-family: "Homemade Apple", cursive; }
+
+li {
+  font-family: "Homemade Apple", cursive; }
+
+ul {
+  background: #7FCCF5;
+  list-style: none;
+  max-width: 600px;
+  margin: 0 auto;
+  border-right: 5px solid #7FCCF5;
+  border-left: 5px solid silver; }
+  ul li {
+    background: silver; }
+    ul li ul li {
+      background: #7FCCF5; }
+      ul li ul li ul li {
+        background: silver; }
+        ul li ul li ul li ul li {
+          background: #7FCCF5; }
+          ul li ul li ul li ul li ul li {
+            background: silver; }
+            ul li ul li ul li ul li ul li ul li {
+              background: #7FCCF5; }
+              ul li ul li ul li ul li ul li ul li ul li {
+                background: silver; }
+                ul li ul li ul li ul li ul li ul li ul li ul li {
+                  background: #7FCCF5; }
+                  ul li ul li ul li ul li ul li ul li ul li ul li ul li {
+                    background: silver; }
+
+footer {
+  font-size: 10px; }
+
+/*# sourceMappingURL=style.css.map */
